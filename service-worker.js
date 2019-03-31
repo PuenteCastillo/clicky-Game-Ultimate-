@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PuenteCastillo/clicky-Game-Ultimate-/precache-manifest.88545a7c4fc3ce54671bad574dfc9068.js"
+  "/clicky-Game-Ultimate-/precache-manifest.13200b92c9581bb0c325fdfc4eb357f0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/PuenteCastillo/clicky-Game-Ultimate-/index.html", {
+workbox.routing.registerNavigationRoute("/clicky-Game-Ultimate-/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
